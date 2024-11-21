@@ -1,0 +1,104 @@
+/*mise a niveau des espaces et des marges */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow";
+}
+
+html {
+  overflow-x: hidden;
+}
+
+/* style du menu de navigation */
+/*couleur de la barre de navigation*/
+ul {
+  display: inline-table;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30%;
+  margin-top: 30%;
+}
+
+li {
+  padding: 20px;
+}
+
+nav ul li {
+  background-color: #ffffff;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li a {
+  display: flex;
+  padding: 7px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li ul.dropdown li {
+  display: block;
+  left: 0px;
+  top: -80px;
+}
+
+/*parametres pour le volet deroulant services*/
+nav ul li ul.dropdown {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+
+/*change la couleur du service selectionné*/
+nav ul li a:hover {
+  background-color: #cccccc;
+}
+
+nav ul li:hover ul.dropdown {
+  display: block;
+}
+
+.house {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.croix {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  left: 85%;
+}
+
+.menu-burger {
+  display: none;
+  top: 20px;
+  left: 95%;
+}
+
+
+footer {
+  background-color: #000000;
+  color: white;
+}
+
+th {
+  padding: 10px;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

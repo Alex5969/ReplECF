@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Voitures</title>
+  <link href="filtre.css" rel="stylesheet" type="text/css" />
+  <a href="index.html"><img src="domicile.png"></a>
+  <a href="vente.html"><img class="croix" src="croix.png"></a>
+</head>
+
+
+<div>
+  <div>
+    <form>
+      <h3>Filtre de recherche</h3>
+      <section>
+        <br>
+        <br>
+        <span>Année de circulation</span>
+        <div>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="categorycustomRadio1" name="customRadio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio1">1960 - 1980</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="categorycustomRadio2" name="customRadio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio2">1980 - 1990</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="categorycustomRadio3" name="customRadio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio3">1990 - 2000</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="categorycustomRadio4" name="customRadio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio4">2000 - 2010</label>
+          </div>
+        </div>
+      </section>
+    </form>
+  </div>
+</div>
+<!--End Items Filter-->
+<br>
+<br>
+<!--Items Container-->
+<div>
+  <div>
+    <div>
+    </div>
+    <div>
+      <span>Filtre par prix</span>
+      <select>
+        <option>Prix - Ascendant</option>
+        <option>Prix - Descendant</option>
+        <option>Notes - Ascendant</option>
+        <option>Notes - Descendant</option>
+      </select>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div>
+    <span>Kilométrage</span>
+    <select>
+      <option>50.000 - 100.000</option>
+      <option>100.000 - 150.000</option>
+      <option>150.000 - 200.000</option>
+      <option>200.000 et +</option>
+    </select>
+  </div>
+  <section>
+    <br>
+    <br>
+    <span>Prix</span>
+    <div>
+      <input type="number" name="min" class="form-control" placeholder="minimum €" />
+      <input type="number" name="max" class="form-control" placeholder="maximum €" />
+    </div>
+  </section>
+  <br>
+  <section class="mt-2">
+    <button>Appliquer</button>
+  </section>
+  </aside>
+</div>

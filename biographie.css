@@ -1,0 +1,44 @@
+/*mise a niveau des espaces et des marges */
+body {
+  margin: 70px;
+  padding: 0;
+  font-family: "Barlow";
+  box-sizing: border-box;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+span {
+  margin: 10px;
+  color: gold;
+}
+
+div {
+  text-align: right;
+  color: white;
+  bottom: 10px;
+  right: 5px;
+}
+
+.house {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.croix {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 85%;
+}
+
+@media screen and (max-width:600px) {
+  .croix {
+  display: flex;
+  }
+}

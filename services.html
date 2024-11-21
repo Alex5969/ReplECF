@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="services.css" rel="stylesheet" type="text/css" />
+  <title>Formualire de nos service</title>
+</head>
+
+<body>
+  <a href="index.html"><img class="house" src="domicile.png"></a>
+  <a href="navbar.html"><img class="croix" src="croixnoir.png"></a>
+  <h1>Formulaire de nos services</h1>
+  <form action="">
+    <h5>Prendre Rendez-vous</h5>
+    <hr input>
+    <div class="name-field">
+      <div>
+        <label for="nom">Nom</label>
+        <input id="nom" type="text" required>
+      </div>
+      <br>
+      <div>
+        <label for="prenom">Prénom</label>
+        <input id="prenom" type="text" required>
+      </div>
+      <br>
+      <div>
+        <label for="number phone">Numéro de téléphone</label>
+        <input id="phone" type="tel" required>
+      </div>
+      <br>
+      <label for="email">E-mail</label>
+      <input id="email" type="email" required>
+      <br>
+      <br>
+      <label for="Service">Services</label>
+      <select id="Service" required>
+        <option value="">Sélectionnez un service</option>
+        <option value="réparation de carosserie">réparation de carrosserie</option>
+        <option value="mécanique">mécanique</option>
+        <option value="entretien">entretien</option>
+        <option value="vente de vehicules">vente de vehicules</option>
+      </select>
+      <br>
+      <br>
+      <label for="textarea">Commentaire</label>
+      <textarea id="commentaire" required></textarea>
+      <br>
+      <br>
+      <div class="inputBx"> <input type="button" value="Valider" onclick="alert('Le fomrulaire est envoyé')" />
+      </div>
+  </form>
+</body>
+
+</html>

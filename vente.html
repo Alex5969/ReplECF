@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="vente.css" rel="stylesheet" type="text/css" />
+  <script src="vente.js"></script>
+</head>
+
+<body>
+  <a href="index.html"><img src="domicile.png"></a>
+  <a href="filtre.html"><img src="menu.png" alt="menu burger" class="menu-burger"></a>
+  <br>
+  <br>
+  <aside>
+    <!--Items Filter-->
+    <div>
+      <div>
+        <form>
+          <section>
+            <br>
+            <br>
+            <span>Année de circulation</span>
+            <div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="categorycustomRadio1" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio1">1960 - 1980</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="categorycustomRadio2" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio2">1980 - 1990</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="categorycustomRadio3" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio3">1990 - 2000</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="categorycustomRadio4" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio4">2000 - 2010</label>
+              </div>
+            </div>
+          </section>
+        </form>
+      </div>
+    </div>
+    <!--End Items Filter-->
+    <br>
+    <br>
+    <!--Items Container-->
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <span>Filtre par prix</span>
+          <select>
+            <option>Prix - Ascendant</option>
+            <option>Prix - Descendant</option>
+          </select>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div>
+        <span>Kilométrage</span>
+        <select>
+
+          <option>50.000 - 100.000</option>
+          <option>100.000 - 150.000</option>
+          <option>150.000 - 200.000</option>
+          <option>200.000 et +</option>
+        </select>
+      </div>
+      <section>
+        <br>
+        <br>
+        <span>Prix</span>
+        <div>
+          <input type="number" name="min" class="form-control" placeholder="minimum €" />
+          <input type="number" name="max" class="form-control" placeholder="maximum €" />
+        </div>
+      </section>
+      <br>
+      <br>
+      <section class="mt-2">
+        <button>Appliquer</button>
+      </section>
+      <span>8 sur 100 voitures</span>
+  </aside>
+  <br>
+  <br>
+  </div>
+  <!--voitures-->
+  <div class="products">
+    <div class="item  col-xs-4 col-md-3">
+      <div class="thumbnail">
+        <img class="group list-group-image"
+          src="https://media.istockphoto.com/id/1346371371/fr/photo/vue-de-profil-de-ford-mustang-1967-fastback-gar%C3%A9e-dans-la-rue.jpg?s=2048x2048&w=is&k=20&c=8acAULidVGR6W048LM_UY0jUwqRFtDayxegCUycRxPU="
+          alt="Image 3" />
+        <div class="category">
+          <h3 class="category-name">Ford Mustang 1967</h3>
+        </div>
+        <div class="caption">
+          <h4>Pony/Muscle car</h4>
+          <div>
+            <p class="lead">40.000€</p>
+          </div>
+          <div class="btn-group">
+            <a class="btn btn-details" href="ford.html">Details</a>
+            <a class="btn btn-success" href="services.html">Réservation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="item  col-xs-4 col-md-3">
+      <div class="thumbnail">
+        <img class="group list-group-image"
+          src="https://media.istockphoto.com/id/1477237371/fr/photo/delorean-dmc12-retour-vers-le-futur-voiture.jpg?s=1024x1024&w=is&k=20&c=0a0K5a8immxFwVYYDcbWnPodEFC_e3kFc6BO4jYTcB4="
+          alt="Image 5" />
+        <div class="category">
+          <h3 class="category-name">Delorean DMC-12</h3>
+        </div>
+        <div class="caption">
+          <h4>Sportive car</h4>
+          <div>
+            <p class="lead">67.750€</p>
+          </div>
+          <div class="btn-group">
+            <a class="btn btn-details" href="delorean.html">Details</a>
+            <a class="btn btn-success" href="services.html">Réservation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item  col-xs-4 col-md-3">
+      <div class="thumbnail">
+        <img class="group list-group-image" src="https://www.gran-turismo.com/gtsport/livery/6278097058900509705_23.jpg"
+          alt="Image 2" />
+        <div class="category">
+          <h3 class="category-name">Mystery Machine</h3>
+        </div>
+        <div class="caption">
+          <h4>Combi/Van</h4>
+          <div>
+            <p class="lead">37.500€</p>
+          </div>
+          <div class="btn-group">
+            <a class="btn btn-details" href="mystery machin.html">Details</a>
+            <a class="btn btn-success" href="services.html">Réservation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="item  col-xs-4 col-md-3">
+      <div class="thumbnail">
+        <img class="group list-group-image"
+          src="https://media.istockphoto.com/id/1143779814/fr/photo/1969-chevrolet-camaro-ss.jpg?s=2048x2048&w=is&k=20&c=LNmsI8sPrKaVTBPlngGZ7WKTudtDZZwG0dyhzzqV3CM="
+          alt="Image 6" />
+        <div class="category">
+          <h3 class="category-name">Chevrolet Camaro SS 1969</h3>
+        </div>
+        <div class="caption">
+          <h4>Pony/Muscle car</h4>
+          <div>
+            <p class="lead">87.500€</p>
+          </div>
+          <div class="btn-group">
+            <a class="btn btn-details" href="chevrolet.html">Details</a>
+            <a class="btn btn-success" href="services.html">Réservation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item  col-xs-4 col-md-3">
+      <div class="thumbnail">
+        <img class="group list-group-image"
+          src="https://www.largus.fr/images/images/chevrolet-2500-van-agence-tous-risques-1.jpg" alt="Image 1" />
+        <div class="category">
+          <h3 class="category-name">Van Agence Tout Risques</h3>
+        </div>
+        <div class="caption">
+          <h4>Van</h4>
+          <div>
+            <p class="lead">30.000€</p>
+          </div>
+          <div class="btn-group">
+            <a class="btn btn-details" href="all risques.html">Details</a>
+            <a class="btn btn-success" href="services.html">Réservation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="item  col-xs-4 col-md-3">
+      <div class="thumbnail">
+        <img class="group list-group-image"
+          src="https://www.turbo.fr/sites/default/files/styles/slideshow_images/public/slideshow/slides/2020-03/5e611876245ad.jpg?itok=mYeavDxv"
+          alt="Image 8" />
+        <div class="category">
+          <h3 class="category-name">Batmobile</h3>
+        </div>
+        <div class="caption">
+          <h4>Hero car</h4>
+          <div>
+            <p class="lead2">1.000.000€</p>
+          </div>
+          <div class="btn-group">
+            <a class="btn btn-details" href="batmobile.html">Details</a>
+            <a class="btn btn-success" href="services.html">Réservation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item  col-xs-4 col-md-3">
+      <div class="thumbnail">
+        <img class="group list-group-image" src="https://www.largus.fr/images/images/ecto1-encheres.jpg" alt="Image 4" />
+        <div class="category">
+          <h3 class="category-name">Ecto-1</h3>
+        </div>
+        <div class="caption">
+          <h4>Break car</h4>
+          <div>
+            <p class="lead">45.000€</p>
+          </div>
+          <div class="btn-group">
+            <a class="btn btn-details" href="ecto-one.html">Details</a>
+            <a class="btn btn-success" href="services.html">Réservation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="item  col-xs-4 col-md-3">
+      <div class="thumbnail">
+        <img class="group list-group-image" src="https://media.istockphoto.com/id/488574932/fr/photo/aston-martin-db5-mod%C3%A8le-sur-blanc.jpg?s=612x612&w=0&k=20&c=0mkhTMxsqYAlOIqbtwmEVt7ypaDPkOA-Av33nz-8Wbw="
+          alt="Image 7" />
+        <div class="category">
+          <h3 class="category-name">Aston Martin DB6 Oldtimer</h3>
+        </div>
+        <div class="caption">
+          <h4>Sportive car</h4>
+          <div>
+            <p class="lead">250.500€</p>
+          </div>
+          <div class="btn-group">
+            <a class="btn btn-details" href="aston.html">Details</a>
+            <a class="btn btn-success" href="services.html">Réservation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
